@@ -1,0 +1,36 @@
+<http://lei.info/549300D47T6SMS2NWC90> <http://lei.info/voc/l1/entityLegalFormCode> "Düsseldorfer Straße 15"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lei.info/549300D47T6SMS2NWC90> <http://lei.info/voc/l1/headquartersAddress> _:genid1 .
+<http://lei.info/549300D47T6SMS2NWC90> <http://lei.info/voc/l1/identifiedBy> <http://lei.info/549300D47T6SMS2NWC90#lei> .
+<http://lei.info/549300D47T6SMS2NWC90> <http://lei.info/voc/l1/legalAddress> _:genid2 .
+<http://lei.info/549300D47T6SMS2NWC90> <http://lei.info/voc/l1/legalEntityStatus> <http://lei.info/voc/l1/Active> .
+<http://lei.info/549300D47T6SMS2NWC90> <http://lei.info/voc/l1/legalName> "PERNOD RICARD FINANCE SA"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lei.info/549300D47T6SMS2NWC90> <http://lei.info/voc/l1/primaryValidationAuthority> _:genid3 .
+<http://lei.info/549300D47T6SMS2NWC90> <http://lei.info/voc/l1/registrationAuthority> _:genid4 .
+<http://lei.info/549300D47T6SMS2NWC90> <http://lei.info/voc/l1/validationSource> <http://lei.info/voc/l1/FullyCorroborated> .
+<http://lei.info/549300D47T6SMS2NWC90> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lei.info/voc/l1/LegalEntity> .
+_:genid1 <http://lei.info/voc/l1/region> "FR-IDF"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://lei.info/voc/l1/streetAddress> "Place des Etats Unis 12"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://lei.info/voc/l1/country> "FR"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lei.info/voc/l1/Address> .
+_:genid1 <http://lei.info/voc/l1/city> "PARIS"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://lei.info/voc/l1/postalCode> "75016"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://lei.info/voc/l1/region> "FR-IDF"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://lei.info/voc/l1/streetAddress> "12 PLACE DES ETATS-UNIS"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://lei.info/voc/l1/country> "FR"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lei.info/voc/l1/Address> .
+_:genid2 <http://lei.info/voc/l1/city> "PARIS"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://lei.info/voc/l1/postalCode> "75016"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid3 <http://lei.info/voc/l1/validationAuthorityID> "RA000192"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lei.info/voc/l1/ValidationAuthority> .
+_:genid3 <http://lei.info/voc/l1/validationAuthorityEntityID> "349 785 238"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid4 <http://lei.info/voc/l1/registrationAuthorityID> "RA000192"@pl .
+_:genid4 <http://lei.info/voc/l1/registrationAuthorityEntityID> "349 785 238"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lei.info/voc/l1/RegistrationAuthority> .
+<http://lei.info/549300D47T6SMS2NWC90#lei> <http://lei.info/voc/l1/identifies> <http://lei.info/549300D47T6SMS2NWC90> .
+<http://lei.info/549300D47T6SMS2NWC90#lei> <http://lei.info/voc/l1/initialRegistrationDate> "2013-04-16T20:38:20+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://lei.info/549300D47T6SMS2NWC90#lei> <http://lei.info/voc/l1/lastUpdateDate> "2018-08-14T10:06:46+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://lei.info/549300D47T6SMS2NWC90#lei> <http://lei.info/voc/l1/leiCode> "549300D47T6SMS2NWC90"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lei.info/549300D47T6SMS2NWC90#lei> <http://lei.info/voc/l1/managingLOU> <http://lei.info/5299000J2N45DDNE4Y28> .
+<http://lei.info/549300D47T6SMS2NWC90#lei> <http://lei.info/voc/l1/nextRenewalDate> "2019-03-25T00:00:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://lei.info/549300D47T6SMS2NWC90#lei> <http://lei.info/voc/l1/registrationStatus> <http://lei.info/voc/l1/Issued> .
+<http://lei.info/549300D47T6SMS2NWC90#lei> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lei.info/voc/l1/LegalEntityIdentifier> .
