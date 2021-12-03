@@ -3,6 +3,7 @@
 const bigInt	= require('big-integer');
 const crypto	= require('crypto');
 const XRegExp	= require('xregexp');
+const moment	= require('moment');
 
 // regular expression to "clean" literals:
 //	- [\p{C} or \p{Other}: invisible control characters and unused code points.](https://www.regular-expressions.info/unicode.html#category)
@@ -96,7 +97,7 @@ function _encodeObject(object) {
 }
 
 function format_dateTime(o) {
- var date = new Date(o);
+ var date = moment.utc(o);
  // console.log('DBG:\t'+o+'\t'+date.toISOString());
  //console.log(date.toISOString());
  //console.log(2);
